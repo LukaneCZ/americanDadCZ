@@ -47,7 +47,7 @@ $config = json_decode(file_get_contents('./config.json'));
                     <div class="row progressHolder">
                         <div class="col-md-1">
                             <?php
-                                if ($config->currentEpisode->cz === true) {
+                                if ($config->episodes[0]->cz === true) {
                                     echo '<a href="subsdownload.php"><img src="media/img/cz.png"></a>';
                                 } else {
                                     echo '<i class="fa fa-cog fa-spin fa-2x"></i>';
@@ -56,16 +56,16 @@ $config = json_decode(file_get_contents('./config.json'));
                         </div>
                         <div class="col-md-9">
                             <progress class="progress progress-danger progress-striped"
-                              value="<?php echo $config->currentEpisode->progress ?>" max="100">
+                              value="<?php echo $config->episodes[0]->progress ?>" max="100">
                             </progress>
                         </div>
                         <div class="col-md-2">
                             <div class="release">
                                 <strong>
                                     <?php
-                                        echo 'S'.$config->currentEpisode->season.
-                                             'E'.$config->currentEpisode->episode.
-                                             ' ('.$config->currentEpisode->release.')'
+                                        echo 'S'.$config->episodes[0]->season.
+                                             'E'.$config->episodes[0]->episode.
+                                             ' ('.$config->episodes[0]->release.')'
                                     ?>
                                 </strong>
                             </div>
@@ -96,10 +96,10 @@ $config = json_decode(file_get_contents('./config.json'));
                                     '</div>';
                                 echo    '<div class="card-block">';
                                 echo        '<p class="card-text">'.$singleEpisode->article.'</p>';
-                                echo        '<p class="card-text"><small class="text-muted date">'.$singleEpisode->date.'</small></p>';
-                                if (isset($singleEpisode->release)) {
-                                    echo        '<p class="card-text"><small class="text-muted date">'.$singleEpisode->date.'</small></p>';
-                                }
+                                echo        '<p class="card-text"><small class="text-muted date">';
+                                echo        $singleEpisode->release.'<br>';
+                                echo        $singleEpisode->date;
+                                echo        '</small></p>';
                                 echo    '</div>';
                                 echo '</div>';
                                 if ($closeCardDeck === true) {
@@ -125,8 +125,8 @@ $config = json_decode(file_get_contents('./config.json'));
         <div class="col-md-2 col-md-offset-1 rightColumn">
             <table class="subsList">
             <?php
-                $season = $config->currentEpisode->season;
-                $episode = $config->currentEpisode->episode - 1;
+                $season = $config->episodes[0]->season;
+                $episode = $config->episodes[0]->episode - 1;
 
                 for (; $episode > 0; $episode--) {
                     if ($episode < 10) {
@@ -158,8 +158,12 @@ $config = json_decode(file_get_contents('./config.json'));
 
     <div class="row">
 
-        <div class="col-md-12" id="Footer">
-            fooooooooooooooooooooooooooooooooooooooooooooooooooooooter
+        <div class="col-md-12">
+            <footer>
+                <div class="designedBy">
+                    <strong>Designed by Lukane</strong>
+                </div>
+            </footer>
         </div>
 
     </div>

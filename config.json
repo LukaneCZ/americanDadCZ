@@ -1,16 +1,5 @@
 {
   "nextEpisodeDate" : "2016,7,25",
-  "currentEpisode" : {
-    "season" : "12",
-    "episode" : "22",
-    "name" : "Standard Deviation",
-    "progress" : "40",
-    "release" : "FLEET",
-    "article" : "Tak před námi je poslední epozoda 12. série. V té náš nečeká nic jiného než DJ battle Stan vs. Bullock, hodně, ale opravdu hodně drog a halucinace. Titulky snad do něděle, mějte se, Lukane :)",
-    "en" : true,
-    "cz" : false,
-    "date" : "28.6.2016"
-  },
   "episodes" : [
     {
       "season" : "12",
@@ -20,7 +9,7 @@
       "release" : "FLEET",
       "article" : "Tak před námi je poslední epozoda 12. série. V té náš nečeká nic jiného než DJ battle Stan vs. Bullock, hodně, ale opravdu hodně drog a halucinace. Titulky snad do něděle, mějte se, Lukane :)",
       "en" : true,
-      "cz" : true,
+      "cz" : false,
       "date" : "28.6.2016"
     },
     {
