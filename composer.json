@@ -1,0 +1,29 @@
+{
+    "name": "americandad 4th",
+    "minimum-stability": "dev",
+    "prefer-stable" : true,
+    "authors": [
+        {
+            "name": "Lukas Lefner",
+            "email": "lukane@email.cz"
+        }
+    ],
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://composer.dev.altworx.com"
+    }
+  ],
+    "require": {
+        "components/jquery": "*",
+        "twbs/bootstrap": "4.*",
+        "fortawesome/font-awesome": "4.*"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app"
+        }
+    }
+}

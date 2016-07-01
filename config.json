@@ -1,0 +1,82 @@
+{
+  "nextEpisodeDate" : "2016,7,25",
+  "currentEpisode" : {
+    "season" : "12",
+    "episode" : "22",
+    "name" : "Standard Deviation",
+    "progress" : "40",
+    "release" : "FLEET",
+    "article" : "Tak před námi je poslední epozoda 12. série. V té náš nečeká nic jiného než DJ battle Stan vs. Bullock, hodně, ale opravdu hodně drog a halucinace. Titulky snad do něděle, mějte se, Lukane :)",
+    "en" : true,
+    "cz" : false,
+    "date" : "28.6.2016"
+  },
+  "episodes" : [
+    {
+      "season" : "12",
+      "episode" : "22",
+      "name" : "Standard Deviation",
+      "progress" : "40",
+      "release" : "FLEET",
+      "article" : "Tak před námi je poslední epozoda 12. série. V té náš nečeká nic jiného než DJ battle Stan vs. Bullock, hodně, ale opravdu hodně drog a halucinace. Titulky snad do něděle, mějte se, Lukane :)",
+      "en" : true,
+      "cz" : true,
+      "date" : "28.6.2016"
+    },
+    {
+      "season" : "12",
+      "episode" : "21",
+      "name" : "Next of Pin",
+      "progress" : "100",
+      "release" : "FLEET",
+      "article" : "Nebojte, nezapomněl jsem :) V předposlední epizodě této série bude mít Steve možnost stát se profesionálním hráčem bowlingu, naneštěstí je napaden a pobodán. Kdo je útočníkem se můžete dozvědět tento víkend, možná už v sobotu, uvidíme. ",
+      "en" : true,
+      "cz" : true,
+      "date" : "21.6.2016"
+    },
+    {
+      "season" : "12",
+      "episode" : "20",
+      "name" : "Gifted Me Liberty",
+      "progress" : "100",
+      "release" : "FLEET",
+      "article" : "Tento týden budete svědky vyšetřování v řadách samotného C.I.A. Stan se chopí vyšetřování, ale po Rogerových radách to nedopadne dobře. Zato Stevovi se bude víc něž dařit, více v aktuální epizodě.",
+      "en" : true,
+      "cz" : true,
+      "date" : "14.6.2016"
+    },
+    {
+      "season" : "12",
+      "episode" : "19",
+      "name" : "Garfield and Friends",
+      "progress" : "100",
+      "release" : "AVS",
+      "article" : " Stan nám poví něco o 20. americkém prezidentovi a utuží svůj vztah s Hayley, zatímco se Steve stane aspoň na chvíli školní hvězdou. Předpokládáne dokončení je v neděli.",
+      "en" : true,
+      "cz" : true,
+      "date" : "7.6.2016"
+    },
+    {
+      "season" : "12",
+      "episode" : "18",
+      "name" : "Mine Struggle",
+      "progress" : "100",
+      "release" : "FLEET",
+      "article" : "Tento týden se u Smithů rozhoří spor o nerostné bohatství ukryté na dvorku. Stan souhlasí s prodejem, ale to ještě neví, že ukryté minerály vlastně nepatří jemu. Jak to dopadne se můžete podívat jakmile budou titulky :)",
+      "en" : true,
+      "cz" : true,
+      "date" : "31.5.2016"
+    },
+    {
+      "season" : "12",
+      "episode" : "17",
+      "name" : "Criss-Cross Applesauce: The Ballad of Billy Jesusworth",
+      "progress" : "100",
+      "release" : "FLEET",
+      "article" : "Tento týden se Roger a Stan společné zúčastní basketballového turnaje proti dvoum největším hvězdám a Steve nám zazpívá o svém neobvyklém dni. V epizodě je dost zpěvu, takže to bude nejspíš trvat déle než obvykle. Snad do neděle stíhám. Mějte se :)",
+      "en" : true,
+      "cz" : true,
+      "date" : "31.5.2016"
+    }
+  ]
+}
